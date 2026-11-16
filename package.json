@@ -1,0 +1,29 @@
+{
+  "name": "tiktok-minis-vue-starter",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0 --port 8080",
+    "debug": "minis dev --client-key mn2cv58hjhi2ppmj",
+    "sandbox": "npm run build:minis",
+    "build": "vue-tsc --noEmit && vite build",
+    "build:minis": "npm run build && minis build",
+    "minis:dev": "minis dev",
+    "preview": "vite preview --host 0.0.0.0",
+    "typecheck": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vant": "^4.10.2",
+    "vue": "^3.5.44",
+    "vue-router": "^4.6.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.3.3",
+    "@vitejs/plugin-vue": "^6.0.10",
+    "tailwindcss": "^4.3.3",
+    "typescript": "^6.0.3",
+    "vite": "^8.3.5",
+    "vue-tsc": "^3.3.13"
+  }
+}
