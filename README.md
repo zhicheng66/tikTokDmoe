@@ -1,4 +1,8 @@
+
+
 # TikTok Minis Vue Drama Demo
+https://bytedance.larkoffice.com/wiki/NjgSwYNSHiiMdxkJHHwcTY1lnCg
+https://bytedance.larkoffice.com/wiki/MJ2BwFqSxi4r2SkwHS8cRrlsnVb
 
 基于 Vue 3、TypeScript、Vue Router、Vant、Tailwind CSS 和 TikTok Minis SDK
 的短剧示例。业务基础由 `tiktok-minis-drama-demo.zip` 的 React 示例迁移而来。
